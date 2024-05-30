@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "Llzf9HEB46DGr1c3iSv1492aopAF5hLhz4A8E94droBz0s2Y9XmWGIsZjxvmdyiFZoYm3Zne63CWCV18s2OFag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Personal\\RiderProjects\\Backend-MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Personal\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Backend-MusicTime depends on Swashbuckle.AspNetCore (>= 6.4.0) but Swashbuckle.AspNetCore 6.4.0 was not found. An approximate best match of Swashbuckle.AspNetCore 6.5.0 was resolved.",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

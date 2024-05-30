@@ -1,0 +1,6 @@
+@Backend_MusicTime_HostAddress = http://localhost:5281
+
+GET {{Backend_MusicTime_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
