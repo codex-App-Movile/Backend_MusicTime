@@ -21,7 +21,6 @@
     <ItemGroup>
       <Folder Include="Musician\Application\" />
       <Folder Include="Musician\Domain\Model\Entities\" />
-      <Folder Include="Musician\Infrastructure\" />
       <Folder Include="Musician\Interfaces\" />
     </ItemGroup>
 
