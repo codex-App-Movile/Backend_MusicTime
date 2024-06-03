@@ -1,8 +1,7 @@
-
-using Backend_MusicTime.Musician.Shared.Interfaces.ASP.Configuration.Extensions;
+using Backend_MusicTime.Shared.Interfaces.ASP.Configuration.Extensions;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace Backend_MusicTime.Musician.Shared.Interfaces.ASP.Configuration;
+namespace Backend_MusicTime.Shared.Interfaces.ASP.Configuration;
 
 public class KebabCaseRouteNamingConvention : IControllerModelConvention
 {

@@ -20,6 +20,7 @@
 
     <ItemGroup>
       <Folder Include="Musician\Domain\Model\Entities\" />
+      <Folder Include="Musician\Interfaces\ACL\" />
     </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-namespace Backend_MusicTime.Musician.Shared.Domain.Repositories;
+namespace Backend_MusicTime.Shared.Domain.Repositories;
 
 public interface IBaseRepository<TEntity>
 {

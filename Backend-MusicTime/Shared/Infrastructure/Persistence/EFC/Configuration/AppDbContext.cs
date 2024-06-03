@@ -1,9 +1,9 @@
 using Backend_MusicTime.Musician.Domain.Model.Aggregates;
-using Backend_MusicTime.Musician.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
-using Microsoft.EntityFrameworkCore;
+using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
+using Microsoft.EntityFrameworkCore;
 
-namespace Backend_MusicTime.Musician.Shared.Infrastructure.Persistence.EFC.Configuration;
+namespace Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration;
 
 public class AppDbContext(DbContextOptions options) : DbContext(options)
 {

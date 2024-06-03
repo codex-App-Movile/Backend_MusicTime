@@ -1,6 +1,6 @@
 using Humanizer;
 
-namespace Backend_MusicTime.Musician.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
+namespace Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 
 public static class StringExtensions
 {

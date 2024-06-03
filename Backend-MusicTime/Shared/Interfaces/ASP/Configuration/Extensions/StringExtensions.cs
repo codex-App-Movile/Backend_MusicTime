@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace Backend_MusicTime.Musician.Shared.Interfaces.ASP.Configuration.Extensions;
+namespace Backend_MusicTime.Shared.Interfaces.ASP.Configuration.Extensions;
 
 public static partial class StringExtensions
 {

@@ -1,9 +1,8 @@
-using Backend_MusicTime.Musician.Shared.Domain.Repositories;
-using Backend_MusicTime.Musician.Shared.Infrastructure.Persistence.EFC.Configuration;
+using Backend_MusicTime.Shared.Domain.Repositories;
+using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration;
 using Microsoft.EntityFrameworkCore;
 
-
-namespace Backend_MusicTime.Musician.Shared.Infrastructure.Persistence.EFC.Repositories;
+namespace Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Repositories;
 
 public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
 {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Backend_MusicTime.Musician.Shared.Interfaces.ASP.Configuration.Extensions;
+namespace Backend_MusicTime.Shared.Interfaces.ASP.Configuration.Extensions;
 
 public static class ModelStateExtensions
 {
