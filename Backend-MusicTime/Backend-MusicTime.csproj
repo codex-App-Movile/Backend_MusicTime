@@ -19,9 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Musician\Application\" />
       <Folder Include="Musician\Domain\Model\Entities\" />
-      <Folder Include="Musician\Interfaces\" />
     </ItemGroup>
 
 </Project>
