@@ -1,4 +1,5 @@
 using System.Net.Mime;
+using Backend_MusicTime.Musician.Domain.Model.Commands;
 using Backend_MusicTime.Musician.Domain.Model.Queries;
 using Backend_MusicTime.Musician.Domain.Services;
 using Backend_MusicTime.Musician.Interfaces.REST.Resources;
