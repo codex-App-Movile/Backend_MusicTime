@@ -1,0 +1,48 @@
+using Backend_MusicTime.Contracts.Domain.Model.Commands;
+using Backend_MusicTime.Contracts.Domain.Model.ValueObjects;
+
+namespace Backend_MusicTime.Contracts.Domain.Model.Aggregates;
+
+public partial class Contract
+{
+    public Contract(int id)
+    {
+        Id = id;
+        CustomerName = new PersonName();
+        MusicianName = new PersonName();
+        EventLocation = new StreetAddress();
+        Terms = string.Empty;
+        EventDate = DateTime.MinValue;
+    }
+
+    public Contract(string customerFirstName, string customerLastName, string musicianFirstName, string musicianLastName, DateTime eventDate, string street, string number, string city, string terms, int id)
+    {
+        CustomerName = new PersonName(customerFirstName, customerLastName);
+        MusicianName = new PersonName(musicianFirstName, musicianLastName);
+        EventDate = eventDate;
+        EventLocation = new StreetAddress(street, number, city);
+        Terms = terms;
+        Id = id;
+    }
+
+    public Contract(CreateContractCommand command, int id)
+    {
+        Id = id;
+        CustomerName = new PersonName(command.CustomerFirstName, command.CustomerLastName);
+        MusicianName = new PersonName(command.MusicianFirstName, command.MusicianLastName);
+        EventDate = command.EventDate;
+        EventLocation = new StreetAddress(command.Street, command.Number, command.City);
+        Terms = command.Terms;
+    }
+
+    public int Id { get; }
+    public PersonName CustomerName { get; private set; }
+    public PersonName MusicianName { get; private set; }
+    public DateTime EventDate { get; private set; }
+    public StreetAddress EventLocation { get; private set; }
+    public string Terms { get; private set; }
+
+    public string FullCustomerName => CustomerName.FullName;
+    public string FullMusicianName => MusicianName.FullName;
+    public string FullAddress => EventLocation.FullAddress;
+}
