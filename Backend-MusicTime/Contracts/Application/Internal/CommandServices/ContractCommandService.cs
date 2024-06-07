@@ -19,11 +19,11 @@ namespace Backend_MusicTime.Contracts.Application.Internal.CommandServices
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<Contract>? Handle(int command)
+        public async Task<Contract>? Handle(CreateContractCommand command)
         {
-            var customerName = new PersonName("Customer First Name", "Customer Last Name");
-            var musicianName = new PersonName("Musician First Name", "Musician Last Name");
-            var terms = "Terms of the contract";
+            var customerName = new PersonName(command.CustomerFirstName, command.CustomerLastName);
+            var musicianName = new PersonName(command.MusicianFirstName, command.MusicianLastName);
+            var terms = command.Terms;
 
             var contract = new Contract(command, customerName, musicianName, terms);
             try
@@ -37,6 +37,11 @@ namespace Backend_MusicTime.Contracts.Application.Internal.CommandServices
                 Console.WriteLine($"An error occurred while creating the contract: {e.Message}");
                 return null;
             }
+        }
+
+        public Task<Contract>? Handle(int command)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<Contract>? Handle(UpdateContractCommand command)

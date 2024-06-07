@@ -5,7 +5,7 @@ namespace Backend_MusicTime.Contracts.Domain.Model.Aggregates;
 
 public partial class Contract
 {
-    public Contract(int id, PersonName customerName, PersonName musicianName, string terms)
+    public Contract(int id)
     {
         Id = id;
         CustomerName = new PersonName();
@@ -35,7 +35,7 @@ public partial class Contract
         Terms = command.Terms;
     }
     
-    public Contract(UpdateContractCommand command, PersonName customerName, PersonName musicianName, string terms)
+    public Contract(CreateContractCommand command, PersonName customerName, PersonName musicianName, string terms)
     {
         CustomerName = customerName;
         MusicianName = musicianName;
@@ -44,9 +44,10 @@ public partial class Contract
         EventLocation = new StreetAddress(command.Street, command.Number, command.City);
     }
 
-    public int Id { get; }
-    public PersonName CustomerName { get; private set; }
-    public PersonName MusicianName { get; private set; }
+    
+    public int Id { get; set; } 
+    public PersonName CustomerName { get; set; }
+    public PersonName MusicianName { get; set; }
     public DateTime EventDate { get; set; }
     public StreetAddress EventLocation { get; set; }
     public string Terms { get; private set; }
@@ -54,4 +55,5 @@ public partial class Contract
     public string FullCustomerName => CustomerName.FullName;
     public string FullMusicianName => MusicianName.FullName;
     public string FullAddress => EventLocation.FullAddress;
+    public Guid MusicianId { get; set; }
 }
