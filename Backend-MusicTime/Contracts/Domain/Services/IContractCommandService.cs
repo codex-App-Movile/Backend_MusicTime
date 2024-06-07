@@ -4,6 +4,7 @@ using Backend_MusicTime.Contracts.Domain.Model.Aggregates;
 namespace Backend_MusicTime.Contracts.Domain.Services;
 
 public interface IContractCommandService
-    {
-        Task<Contract>? Handle(CreateContractCommand command);
-    }
+{
+    Task<Contract>? Handle(int command);
+    Task<Contract>? Handle(UpdateContractCommand command);
+}

@@ -5,7 +5,7 @@ namespace Backend_MusicTime.Contracts.Domain.Model.Aggregates;
 
 public partial class Contract
 {
-    public Contract(int id)
+    public Contract(int id, PersonName customerName, PersonName musicianName, string terms)
     {
         Id = id;
         CustomerName = new PersonName();
@@ -15,7 +15,7 @@ public partial class Contract
         EventDate = DateTime.MinValue;
     }
 
-    public Contract(string customerFirstName, string customerLastName, string musicianFirstName, string musicianLastName, DateTime eventDate, string street, string number, string city, string terms, int id)
+    public Contract(string customerFirstName, string customerLastName, string musicianFirstName, string musicianLastName, DateTime eventDate, string street, string number, string city, string terms, int id, PersonName customerName, PersonName musicianName)
     {
         CustomerName = new PersonName(customerFirstName, customerLastName);
         MusicianName = new PersonName(musicianFirstName, musicianLastName);
@@ -25,7 +25,7 @@ public partial class Contract
         Id = id;
     }
 
-    public Contract(CreateContractCommand command, int id)
+    public Contract(CreateContractCommand command, int id, PersonName customerName, PersonName musicianName, string terms)
     {
         Id = id;
         CustomerName = new PersonName(command.CustomerFirstName, command.CustomerLastName);
@@ -34,12 +34,21 @@ public partial class Contract
         EventLocation = new StreetAddress(command.Street, command.Number, command.City);
         Terms = command.Terms;
     }
+    
+    public Contract(UpdateContractCommand command, PersonName customerName, PersonName musicianName, string terms)
+    {
+        CustomerName = customerName;
+        MusicianName = musicianName;
+        Terms = terms;
+        EventDate = command.EventDate;
+        EventLocation = new StreetAddress(command.Street, command.Number, command.City);
+    }
 
     public int Id { get; }
     public PersonName CustomerName { get; private set; }
     public PersonName MusicianName { get; private set; }
-    public DateTime EventDate { get; private set; }
-    public StreetAddress EventLocation { get; private set; }
+    public DateTime EventDate { get; set; }
+    public StreetAddress EventLocation { get; set; }
     public string Terms { get; private set; }
 
     public string FullCustomerName => CustomerName.FullName;

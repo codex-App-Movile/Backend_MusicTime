@@ -1,6 +1,7 @@
 namespace Backend_MusicTime.Contracts.Domain.Model.Commands;
 
 public record CreateContractCommand(
+    int Id,
     string CustomerFirstName, 
     string CustomerLastName, 
     string MusicianFirstName, 
