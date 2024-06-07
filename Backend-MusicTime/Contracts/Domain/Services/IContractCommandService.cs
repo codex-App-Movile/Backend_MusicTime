@@ -7,4 +7,5 @@ public interface IContractCommandService
 {
     Task<Contract>? Handle(int command);
     Task<Contract>? Handle(UpdateContractCommand command);
+    Task<Contract> Handle(CreateContractCommand createContractCommand);
 }

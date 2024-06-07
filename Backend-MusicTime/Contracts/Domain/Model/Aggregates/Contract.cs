@@ -54,6 +54,6 @@ public partial class Contract
 
     public string FullCustomerName => CustomerName.FullName;
     public string FullMusicianName => MusicianName.FullName;
-    public string FullAddress => EventLocation.FullAddress;
+    public string StreetAddress  => EventLocation.FullAddress;
     public Guid MusicianId { get; set; }
 }
