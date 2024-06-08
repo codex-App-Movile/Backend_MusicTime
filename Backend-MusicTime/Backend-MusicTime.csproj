@@ -20,7 +20,7 @@
 
     <ItemGroup>
       <Folder Include="Contracts\Interfaces\ACL\" />
-      <Folder Include="Feedback\Domain\Model\Aggregates\" />
+      <Folder Include="Review\Domain\Model\Aggregates\" />
       <Folder Include="Musician\Domain\Model\Entities\" />
       <Folder Include="Musician\Interfaces\ACL\" />
     </ItemGroup>
