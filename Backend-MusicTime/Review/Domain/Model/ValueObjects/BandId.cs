@@ -2,13 +2,13 @@
 
 public record BandId
 {
-    int bandId { get; }
-    public BandId(int bandId)
+    public int Value { get; set; }
+    public BandId(int value)
     {
-        if (bandId < 0)
+        if (value < 0)
         {
-            throw new ArgumentOutOfRangeException("User ID cannot be negative", nameof(bandId));
+            throw new ArgumentOutOfRangeException("User ID cannot be negative", nameof(value));
         }
-        this.bandId = bandId;
+        this.Value = Value;
     }
 }

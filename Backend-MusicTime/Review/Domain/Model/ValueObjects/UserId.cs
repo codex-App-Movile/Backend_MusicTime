@@ -2,14 +2,14 @@
 
 public record UserId
 {
-    int userId {  get; }
-    public UserId(int userId)
+    public int Value {  get; }
+    public UserId(int value)
     {
-        if (userId < 0)
+        if (value < 0)
         {
-            throw new ArgumentOutOfRangeException("User ID cannot be negative", nameof(userId));
+            throw new ArgumentOutOfRangeException("User ID cannot be negative", nameof(value));
         }
-        this.userId = userId;
+        this.Value = value;
     }
 }
 

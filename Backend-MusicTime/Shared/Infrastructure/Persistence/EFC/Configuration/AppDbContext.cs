@@ -3,6 +3,8 @@ using Backend_MusicTime.Contracts.Domain.Model.Aggregates;
 using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
 using Microsoft.EntityFrameworkCore;
+using Backend_MusicTime.Review.Domain.Model.Entities;
+using System.Reflection.Emit;
 
 namespace Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration;
 
@@ -10,7 +12,8 @@ public class AppDbContext : DbContext
 {
     public DbSet<Artist> Artists { get; set; }
     public DbSet<Contract> Contracts { get; set; }
-
+    public DbSet<Comment> Comments { get; set; }
+    public DbSet<Puntuation> Puntuations { get; set; }
     public AppDbContext(DbContextOptions options) : base(options)
     {
     }
@@ -63,6 +66,35 @@ public class AppDbContext : DbContext
                 a.Property(s => s.City).HasColumnName("EventLocationCity");
             });
 
+        //Review Context
+        builder.Entity<Comment>().HasKey(p => p.Id);
+        builder.Entity<Comment>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Comment>().OwnsOne(p => p.UserId,
+            a =>
+            {
+                a.WithOwner().HasForeignKey("Id");
+                a.Property(s => s.Value).HasColumnName("UserId");
+            });
+        builder.Entity<Comment>().OwnsOne(p => p.BandId,
+            a =>
+            {
+                a.WithOwner().HasForeignKey("Id");
+                a.Property(s => s.Value).HasColumnName("BandId");
+            });
+        builder.Entity<Puntuation>().HasKey(p => p.Id);
+        builder.Entity<Puntuation>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Puntuation>().OwnsOne(p => p.UserId,
+            a =>
+            {
+                a.WithOwner().HasForeignKey("Id");
+                a.Property(s => s.Value).HasColumnName("UserId");
+            });
+        builder.Entity<Puntuation>().OwnsOne(p => p.BandId,
+            a =>
+            {
+                a.WithOwner().HasForeignKey("Id");
+                a.Property(s => s.Value).HasColumnName("BandId");
+            });
         // Apply SnakeCase Naming Convention
         builder.UseSnakeCaseWithPluralizedTableNamingConvention();
     }
