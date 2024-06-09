@@ -3,6 +3,8 @@ using Backend_MusicTime.Musician.Application.Internal.QueryServices;
 using Backend_MusicTime.Musician.Domain.Repositories;
 using Backend_MusicTime.Musician.Domain.Services;
 using Backend_MusicTime.Musician.Infrastructure.Persistence.EFC.Repositories;
+using Backend_MusicTime.Review.Domain.Repositories;
+using Backend_MusicTime.Review.Infrastructure.Persistence.EFC.Repositories;
 using Backend_MusicTime.Shared.Domain.Repositories;
 using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration;
 using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Repositories;
@@ -90,6 +92,10 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
 //builder.Services.AddScoped<IArtistCommandService, ArtistCommandService>();
 builder.Services.AddScoped<IArtistQueryService, ArtistQueryService>();
+
+builder.Services.AddScoped<IBandRepository, BandRepository>();
+builder.Services.AddScoped<ICommentRepository,CommentRepository>();
+builder.Services.AddScoped<IPuntuationRepository,PuntuationRepository>();
 
 
 var app = builder.Build();
