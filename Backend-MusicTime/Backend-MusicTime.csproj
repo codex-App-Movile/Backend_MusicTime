@@ -22,7 +22,6 @@
       <Folder Include="Contracts\Interfaces\ACL\" />
       <Folder Include="Musician\Domain\Model\Entities\" />
       <Folder Include="Musician\Interfaces\ACL\" />
-      <Folder Include="Review\Application\" />
       <Folder Include="Review\Interfaces\" />
     </ItemGroup>
 

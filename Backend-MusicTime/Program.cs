@@ -3,7 +3,10 @@ using Backend_MusicTime.Musician.Application.Internal.QueryServices;
 using Backend_MusicTime.Musician.Domain.Repositories;
 using Backend_MusicTime.Musician.Domain.Services;
 using Backend_MusicTime.Musician.Infrastructure.Persistence.EFC.Repositories;
+using Backend_MusicTime.Review.Application.Internal.CommandServices;
+using Backend_MusicTime.Review.Application.Internal.QueryServices;
 using Backend_MusicTime.Review.Domain.Repositories;
+using Backend_MusicTime.Review.Domain.Services;
 using Backend_MusicTime.Review.Infrastructure.Persistence.EFC.Repositories;
 using Backend_MusicTime.Shared.Domain.Repositories;
 using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration;
@@ -94,8 +97,14 @@ builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
 builder.Services.AddScoped<IArtistQueryService, ArtistQueryService>();
 
 builder.Services.AddScoped<IBandRepository, BandRepository>();
+builder.Services.AddScoped<IBandCommandService, BandCommandService>();
+builder.Services.AddScoped<IBandQueryService, BandQueryService>();
 builder.Services.AddScoped<ICommentRepository,CommentRepository>();
+builder.Services.AddScoped<ICommentCommandService, CommentCommandService>();
+builder.Services.AddScoped<ICommentQueryService, CommentQueryService>();
 builder.Services.AddScoped<IPuntuationRepository,PuntuationRepository>();
+builder.Services.AddScoped<IPuntuationCommandService, PuntuationCommandService>();
+builder.Services.AddScoped<IPuntuationQueryService, PuntuationQueryService>();
 
 
 var app = builder.Build();

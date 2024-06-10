@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Backend-MusicTime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54ed5ddfba835a7f976231567dfb504be8a564e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd534cc6ffd1428547d51cb87aca109aeb0c6a28")]
 [assembly: System.Reflection.AssemblyProductAttribute("Backend-MusicTime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Backend-MusicTime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
