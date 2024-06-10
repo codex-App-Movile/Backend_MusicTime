@@ -70,16 +70,84 @@ public class AppDbContext : DbContext
 
         //Review Context
         builder.Entity<Band>().HasKey(b => b.Id);
+        builder.Entity<Band>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<Band>()
-            .HasMany(b => b.Comments);
-        builder.Entity<Band>()
-            .HasMany(b => b.Puntuations);
+            .HasMany(b => b.Comments)
+            .WithOne(c => c.Band)
+            .HasForeignKey(c => c.BandId)
+            .OnDelete(DeleteBehavior.Cascade)
+            .IsRequired();
 
         builder.Entity<Comment>().HasKey(p => p.Id);
         builder.Entity<Comment>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
-  
+        builder.Entity<Comment>()
+            .HasOne(c => c.Band)
+            .WithMany(b => b.Comments)
+            .HasForeignKey(c => c.BandId)
+            .IsRequired();
+        //builder.Entity<Comment>().OwnsOne(c => c.UserId, a =>
+        //{
+        //    a.WithOwner().HasForeignKey("Id");
+        //    a.Property(u => u.Value).HasColumnName("UserId");
+        //});
+        //builder.Entity<Comment>().OwnsOne(c => c.BandId, a =>
+        //{
+        //    a.WithOwner().HasForeignKey("Id");
+        //    a.Property(b => b.Value).HasColumnName("BandId");
+        //});
+        //builder.Entity<Comment>()
+        //    .HasOne<Band>()
+        //    .WithMany()
+        //    .HasForeignKey(c => c.BandId)
+        //    .OnDelete(DeleteBehavior.Cascade);
+
         builder.Entity<Puntuation>().HasKey(p => p.Id);
         builder.Entity<Puntuation>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Puntuation>()
+            .HasOne(p => p.Band)
+            .WithMany(b => b.Puntuations)
+            .HasForeignKey(p => p.BandId)
+            .IsRequired();
+        //builder.Entity<Puntuation>().OwnsOne(p => p.UserId,
+        //    a =>
+        //    {
+        //        a.WithOwner().HasForeignKey("Id");
+        //        a.Property(u => u.Value).HasColumnName("UserId");
+        //    });
+        //builder.Entity<Puntuation>().OwnsOne(p => p.BandId,
+        //    a =>
+        //    {
+        //        a.WithOwner().HasForeignKey("Id");
+        //        a.Property(b => b.Value).HasColumnName("BandId");
+        //    });
+        //builder.Entity<Puntuation>()
+        //    .HasOne<Band>()
+        //    .WithMany()
+        //    .HasForeignKey(c => c.BandId)
+        //    .OnDelete(DeleteBehavior.Cascade);
+
+        //builder.Entity<Band>()
+        //    .HasMany(b => b.Comments)
+        //    .WithOne()
+        //    .HasForeignKey(c => c.BandId)
+        //    .OnDelete(DeleteBehavior.Cascade);
+        //builder.Entity<Band>()
+        //    .HasMany(b => b.Puntuations)
+        //    .WithOne()
+        //    .HasForeignKey(p => p.BandId)
+        //    .OnDelete(DeleteBehavior.Cascade);
+
+        //builder.Entity<Band>().HasKey(b => b.Id);
+        //builder.Entity<Band>()
+        //    .HasMany(b => b.Comments);
+        //builder.Entity<Band>()
+        //    .HasMany(b => b.Puntuations);
+
+        //builder.Entity<Comment>().HasKey(p => p.Id);
+        //builder.Entity<Comment>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+
+        //builder.Entity<Puntuation>().HasKey(p => p.Id);
+        //builder.Entity<Puntuation>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
 
 
         builder.UseSnakeCaseWithPluralizedTableNamingConvention();

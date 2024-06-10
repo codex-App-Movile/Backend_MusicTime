@@ -5,4 +5,5 @@ namespace Backend_MusicTime.Review.Domain.Repositories;
 
 public interface IPuntuationRepository : IBaseRepository<Puntuation>
 {
+   Task<IEnumerable<Puntuation>> GetPuntuationsByBandId(int bandId);
 }

@@ -7,23 +7,11 @@ namespace Backend_MusicTime.Review.Application.Internal.QueryServices;
 
 public class CommentQueryService(ICommentRepository commentRepository) : ICommentQueryService
 {
-    public Task<IEnumerable<Comment>> Handle(GetAllCommentsQuery query)
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<IEnumerable<Comment>> Handle(GetAllCommentsQuery query) => await commentRepository.ListAsync();
 
-    public Task<Comment?> Handle(GetCommentByIdQuery query)
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<Comment?> Handle(GetCommentByIdQuery query) => await commentRepository.FindByIdAsync(query.id);
 
-    public Task<IEnumerable<Comment>> Handle(GetCommentByUserIdQuery query)
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<IEnumerable<Comment>> Handle(GetCommentByUserIdQuery query) => await commentRepository.GetAllCommentsByUserId(query.UserId.Value);
 
-    public Task<IEnumerable<Comment>> Handle(GetAllCommentsByBandIdQuery query)
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<IEnumerable<Comment>> Handle(GetAllCommentsByBandIdQuery query) => await commentRepository.GetCommentsByBandId(query.BandId.Value);
 }

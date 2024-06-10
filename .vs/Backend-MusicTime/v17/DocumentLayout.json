@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\Proyectos\\.net\\Backend_MusicTime\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\puntuationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\puntuationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\bandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\bandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\shared\\infrastructure\\persistence\\efc\\configuration\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\shared\\infrastructure\\persistence\\efc\\configuration\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\entities\\puntuation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\entities\\puntuation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\interfaces\\rest\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\interfaces\\rest\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\interfaces\\rest\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\interfaces\\rest\\bandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\application\\internal\\queryservices\\puntuationqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\application\\internal\\queryservices\\puntuationqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\services\\ipuntuationqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\services\\ipuntuationqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\application\\internal\\queryservices\\commentqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +51,64 @@
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\application\\internal\\queryservices\\bandqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\application\\internal\\commandservices\\puntuationcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\application\\internal\\commandservices\\puntuationcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\interfaces\\rest\\puntuationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\interfaces\\rest\\puntuationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\services\\icommentqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\services\\icommentqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\repositories\\ipuntuationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\repositories\\ipuntuationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\contracts\\application\\internal\\commandservices\\contractcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\contracts\\application\\internal\\commandservices\\contractcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\services\\ibandqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\services\\ibandqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\repositories\\ibandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\repositories\\ibandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\queries\\getallcommentsbybandidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\queries\\getallcommentsbybandidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\shared\\infrastructure\\persistence\\efc\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\shared\\infrastructure\\persistence\\efc\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\shared\\domain\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\shared\\domain\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\aggregates\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\aggregates\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\application\\internal\\commandservices\\commentcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\application\\internal\\commandservices\\commentcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\application\\internal\\commandservices\\puntuationcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\application\\internal\\commandservices\\puntuationcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\application\\internal\\commandservices\\bandcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\application\\internal\\commandservices\\bandcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\services\\ipuntuationqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\services\\ipuntuationqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\services\\icommentqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\services\\icommentqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\queries\\getcommentbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,20 +119,12 @@
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\queries\\getcommentbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\services\\ibandqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\services\\ibandqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\services\\icommentcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\services\\icommentcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\services\\ipuntuationcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\services\\ipuntuationcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\entities\\puntuation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\entities\\puntuation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\services\\ibandcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,14 +143,6 @@
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\commands\\createpuntuationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\aggregates\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\aggregates\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\queries\\getbandbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\queries\\getbandbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -99,10 +155,6 @@
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\queries\\getallpuntuationsbybandidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\queries\\getallcommentsbybandidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\queries\\getallcommentsbybandidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\model\\queries\\getallcommentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\queries\\getallcommentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -111,40 +163,8 @@
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\model\\queries\\getallbandsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\bandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\bandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\puntuationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\infrastructure\\persistence\\efc\\repositories\\puntuationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\shared\\infrastructure\\persistence\\efc\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\shared\\infrastructure\\persistence\\efc\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\repositories\\ibandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\repositories\\ibandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\repositories\\ipuntuationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\repositories\\ipuntuationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\review\\domain\\repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\review\\domain\\repositories\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\musician\\domain\\repositories\\iartistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\musician\\domain\\repositories\\iartistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\shared\\infrastructure\\persistence\\efc\\configuration\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|solutionrelative:backend-musictime\\shared\\infrastructure\\persistence\\efc\\configuration\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FC2F72E-7B67-43D5-B2B4-70426D87954F}|Backend-MusicTime\\Backend-MusicTime.csproj|d:\\proyectos\\.net\\backend_musictime\\backend-musictime\\shared\\infrastructure\\persistence\\efc\\configuration\\extensions\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -178,11 +198,315 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\CommentRepository.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\CommentRepository.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\CommentRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T20:20:48.566Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Comment.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Comment.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Comment.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T02:16:11.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Puntuation.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Puntuation.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Puntuation.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Puntuation.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Puntuation.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA7wBsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:34:43.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\AppDbContext.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\AppDbContext.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\AppDbContext.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAArwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T16:03:06.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BandRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\BandRepository.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\BandRepository.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\BandRepository.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\BandRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwA0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T20:29:00.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PuntuationRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\PuntuationRepository.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\PuntuationRepository.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\PuntuationRepository.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\PuntuationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T20:27:44.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentQueryService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\CommentQueryService.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\CommentQueryService.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\CommentQueryService.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\CommentQueryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T23:42:26.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Interfaces\\REST\\CommentsController.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Interfaces\\REST\\CommentsController.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Interfaces\\REST\\CommentsController.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Interfaces\\REST\\CommentsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:29:36.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BandsController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Interfaces\\REST\\BandsController.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Interfaces\\REST\\BandsController.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Interfaces\\REST\\BandsController.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Interfaces\\REST\\BandsController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T00:10:46.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PuntuationQueryService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\PuntuationQueryService.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\PuntuationQueryService.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\PuntuationQueryService.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\PuntuationQueryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T23:42:45.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPuntuationQueryService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationQueryService.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationQueryService.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationQueryService.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationQueryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T21:18:55.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BandQueryService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\BandQueryService.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\BandQueryService.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\BandQueryService.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\BandQueryService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T23:41:38.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PuntuationsController.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Interfaces\\REST\\PuntuationsController.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Interfaces\\REST\\PuntuationsController.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Interfaces\\REST\\PuntuationsController.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Interfaces\\REST\\PuntuationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:29:15.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICommentQueryService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\ICommentQueryService.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Services\\ICommentQueryService.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\ICommentQueryService.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Services\\ICommentQueryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T21:14:53.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPuntuationRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\IPuntuationRepository.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Repositories\\IPuntuationRepository.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\IPuntuationRepository.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Repositories\\IPuntuationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:53:16.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContractCommandService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Contracts\\Application\\Internal\\CommandServices\\ContractCommandService.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Contracts\\Application\\Internal\\CommandServices\\ContractCommandService.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Contracts\\Application\\Internal\\CommandServices\\ContractCommandService.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Contracts\\Application\\Internal\\CommandServices\\ContractCommandService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:24:39.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBandRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\IBandRepository.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Repositories\\IBandRepository.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\IBandRepository.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Repositories\\IBandRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:52:26.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAllCommentsByBandIdQuery.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsByBandIdQuery.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsByBandIdQuery.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsByBandIdQuery.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsByBandIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T21:46:21.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IBandQueryService.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IBandQueryService.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Services\\IBandQueryService.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IBandQueryService.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Services\\IBandQueryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T21:14:01.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Repositories\\ICommentRepository.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\ICommentRepository.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Repositories\\ICommentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:52:53.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Repositories\\BaseRepository.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T20:18:05.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Domain\\Repositories\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Shared\\Domain\\Repositories\\IBaseRepository.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Domain\\Repositories\\IBaseRepository.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Shared\\Domain\\Repositories\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T00:20:29.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Band.cs",
+              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Aggregates\\Band.cs",
+              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Aggregates\\Band.cs",
+              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Aggregates\\Band.cs",
+              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Aggregates\\Band.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T17:59:08.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "CommentCommandService.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\CommandServices\\CommentCommandService.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Application\\Internal\\CommandServices\\CommentCommandService.cs",
@@ -195,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 25,
               "Title": "PuntuationCommandService.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\CommandServices\\PuntuationCommandService.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Application\\Internal\\CommandServices\\PuntuationCommandService.cs",
@@ -203,51 +527,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Application\\Internal\\CommandServices\\PuntuationCommandService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:41:21.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T23:41:21.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BandQueryService.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\BandQueryService.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\BandQueryService.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\BandQueryService.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\BandQueryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:41:38.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommentQueryService.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\CommentQueryService.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\CommentQueryService.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\CommentQueryService.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\CommentQueryService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAcAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:42:26.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PuntuationQueryService.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\PuntuationQueryService.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\PuntuationQueryService.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\PuntuationQueryService.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Application\\Internal\\QueryServices\\PuntuationQueryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:42:45.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Program.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Program.cs",
@@ -260,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 26,
               "Title": "BandCommandService.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Application\\Internal\\CommandServices\\BandCommandService.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Application\\Internal\\CommandServices\\BandCommandService.cs",
@@ -268,38 +552,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Application\\Internal\\CommandServices\\BandCommandService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:37:18.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T23:37:18.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPuntuationQueryService.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationQueryService.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationQueryService.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationQueryService.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationQueryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T21:18:55.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICommentQueryService.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\ICommentQueryService.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Services\\ICommentQueryService.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\ICommentQueryService.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Services\\ICommentQueryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T21:14:53.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "GetCommentByIdQuery.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetCommentByIdQuery.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetCommentByIdQuery.cs",
@@ -307,25 +564,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetCommentByIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:56:35.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T23:56:35.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IBandQueryService.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IBandQueryService.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Services\\IBandQueryService.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IBandQueryService.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Services\\IBandQueryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T21:14:01.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 29,
               "Title": "ICommentCommandService.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\ICommentCommandService.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Services\\ICommentCommandService.cs",
@@ -333,12 +576,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Services\\ICommentCommandService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T21:14:30.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T21:14:30.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "IPuntuationCommandService.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationCommandService.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationCommandService.cs",
@@ -346,12 +588,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Services\\IPuntuationCommandService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T21:18:38.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T21:18:38.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 28,
               "Title": "GetCommentByUserIdQuery.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetCommentByUserIdQuery.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetCommentByUserIdQuery.cs",
@@ -359,25 +600,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetCommentByUserIdQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:01:31.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:01:31.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Puntuation.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Puntuation.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Puntuation.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Puntuation.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Puntuation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T15:34:43.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "IBandCommandService.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Services\\IBandCommandService.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Services\\IBandCommandService.cs",
@@ -385,12 +612,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Services\\IBandCommandService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T21:13:34.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T21:13:34.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "CreatePuntuationCommand.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Commands\\CreatePuntuationCommand.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Commands\\CreatePuntuationCommand.cs",
@@ -398,12 +624,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Commands\\CreatePuntuationCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:10:04.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T23:10:04.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": "CreateCommentCommand.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Commands\\CreateCommentCommand.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Commands\\CreateCommentCommand.cs",
@@ -411,12 +636,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Commands\\CreateCommentCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:11:54.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:11:54.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 32,
               "Title": "CreateBandCommand.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Commands\\CreateBandCommand.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Commands\\CreateBandCommand.cs",
@@ -424,12 +648,11 @@
               "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Commands\\CreateBandCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:04:44.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T22:04:44.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "GetAllPuntuationsByBandIdQuery.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllPuntuationsByBandIdQuery.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllPuntuationsByBandIdQuery.cs",
@@ -441,19 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GetAllCommentsByBandIdQuery.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsByBandIdQuery.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsByBandIdQuery.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsByBandIdQuery.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsByBandIdQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T21:46:21.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 35,
               "Title": "GetBandByIdQuery.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetBandByIdQuery.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetBandByIdQuery.cs",
@@ -465,33 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Band.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Aggregates\\Band.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Aggregates\\Band.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Aggregates\\Band.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Aggregates\\Band.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T17:59:08.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Comment.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Comment.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Comment.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Model\\Entities\\Comment.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T02:16:11.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "GetAllPuntuationsQuery.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllPuntuationsQuery.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllPuntuationsQuery.cs",
@@ -503,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 38,
               "Title": "GetAllCommentsQuery.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsQuery.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllCommentsQuery.cs",
@@ -515,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "GetAllBandsQuery.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllBandsQuery.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\Queries\\GetAllBandsQuery.cs",
@@ -527,91 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BandRepository.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\BandRepository.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\BandRepository.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\BandRepository.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\BandRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:29:00.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "PuntuationRepository.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\PuntuationRepository.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\PuntuationRepository.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\PuntuationRepository.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\PuntuationRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:27:44.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CommentRepository.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\CommentRepository.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\CommentRepository.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\CommentRepository.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Infrastructure\\Persistence\\EFC\\Repositories\\CommentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:20:48.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Repositories\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Repositories\\BaseRepository.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Repositories\\BaseRepository.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Repositories\\BaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:18:05.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IPuntuationRepository.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\IPuntuationRepository.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Repositories\\IPuntuationRepository.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\IPuntuationRepository.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Repositories\\IPuntuationRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:53:16.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ICommentRepository.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\ICommentRepository.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Repositories\\ICommentRepository.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\ICommentRepository.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Repositories\\ICommentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:52:53.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IBandRepository.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\IBandRepository.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Repositories\\IBandRepository.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Repositories\\IBandRepository.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Review\\Domain\\Repositories\\IBandRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:52:26.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "IArtistRepository.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Musician\\Domain\\Repositories\\IArtistRepository.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Musician\\Domain\\Repositories\\IArtistRepository.cs",
@@ -623,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "ModelBuilderExtensions.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\Extensions\\ModelBuilderExtensions.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\Extensions\\ModelBuilderExtensions.cs",
@@ -635,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "MusicianName.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Musician\\Domain\\Model\\ValueObjects\\MusicianName.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Musician\\Domain\\Model\\ValueObjects\\MusicianName.cs",
@@ -647,19 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\AppDbContext.cs",
-              "ToolTip": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\AppDbContext.cs",
-              "RelativeToolTip": "Backend-MusicTime\\Shared\\Infrastructure\\Persistence\\EFC\\Configuration\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T16:03:06.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "Artist.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Musician\\Domain\\Model\\Aggregates\\Artist.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Musician\\Domain\\Model\\Aggregates\\Artist.cs",
@@ -671,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "BandId.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\ValueObjects\\BandId.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\ValueObjects\\BandId.cs",
@@ -683,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "UserId.cs",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\Review\\Domain\\Model\\ValueObjects\\UserId.cs",
               "RelativeDocumentMoniker": "Backend-MusicTime\\Review\\Domain\\Model\\ValueObjects\\UserId.cs",
@@ -695,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Proyectos\\.net\\Backend_MusicTime\\Backend-MusicTime\\appsettings.json",
               "RelativeDocumentMoniker": "Backend-MusicTime\\appsettings.json",

@@ -7,13 +7,7 @@ namespace Backend_MusicTime.Review.Application.Internal.QueryServices;
 
 public class PuntuationQueryService(IPuntuationRepository puntuationRepository) : IPuntuationQueryService
 {
-    public Task<IEnumerable<Puntuation>> Handle(GetAllPuntuationsQuery query)
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<IEnumerable<Puntuation>> Handle(GetAllPuntuationsQuery query) => await puntuationRepository.ListAsync();
 
-    public Task<IEnumerable<Puntuation>> Handle(GetAllPuntuationsByBandIdQuery query)
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<IEnumerable<Puntuation>> Handle(GetAllPuntuationsByBandIdQuery query) => await puntuationRepository.GetPuntuationsByBandId(query.BandId.Value);
 }
