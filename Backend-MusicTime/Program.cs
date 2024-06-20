@@ -1,3 +1,21 @@
+using Backend_MusicTime.Client.Application.Internal.CommandServices;
+using Backend_MusicTime.Client.Application.Internal.QueryServices;
+using Backend_MusicTime.Client.Domain.Repositories;
+using Backend_MusicTime.Client.Domain.Services;
+using Backend_MusicTime.Client.Infrastructure.Persistence.EFC.Repositories;
+using Backend_MusicTime.Client.Interfaces.ACL;
+using Backend_MusicTime.Client.Interfaces.ACL.Services;
+using Backend_MusicTime.IAM.Application.Internal.CommandServices;
+using Backend_MusicTime.IAM.Application.Internal.OutboundServices;
+using Backend_MusicTime.IAM.Application.Internal.QueryServices;
+using Backend_MusicTime.IAM.Domain.Repositories;
+using Backend_MusicTime.IAM.Domain.Services;
+using Backend_MusicTime.IAM.Infrastructure.Hashing.BCrypt.Services;
+using Backend_MusicTime.IAM.Infrastructure.Persistence.EFC.Repositories;
+using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Configuration;
+using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Services;
+using Backend_MusicTime.IAM.Interfaces.ACL;
+using Backend_MusicTime.IAM.Interfaces.ACL.Services;
 using Backend_MusicTime.Musician.Application.Internal.CommandServices;
 using Backend_MusicTime.Musician.Application.Internal.QueryServices;
 using Backend_MusicTime.Musician.Domain.Repositories;
@@ -11,17 +29,6 @@ using Backend_MusicTime.Shared.Interfaces.ASP.Configuration;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-
-
-
-
-
-
-
-
-
-
-
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -63,7 +70,7 @@ builder.Services.AddSwaggerGen(
                 Title = "Backend-MusicTime",
                 Version = "v1",
                 Description = "Backend Music Time API",
-                TermsOfService = new Uri("https://acme-learning.com/tos"),
+                TermsOfService = new Uri("https://music-time.com/tos"),
                 Contact = new OpenApiContact
                 {
                     Name = "codex",
@@ -76,6 +83,29 @@ builder.Services.AddSwaggerGen(
                 }
             });
         c.EnableAnnotations();
+        c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+        {
+            In = ParameterLocation.Header,
+            Description = "Please enter token",
+            Name = "Authorization",
+            Type = SecuritySchemeType.Http,
+            BearerFormat = "JWT",
+            Scheme = "bearer"
+        });
+        c.AddSecurityRequirement(new OpenApiSecurityRequirement
+        {
+            {
+                new OpenApiSecurityScheme
+                {
+                    Reference = new OpenApiReference
+                    {
+                        Id = "Bearer",
+                        Type = ReferenceType.SecurityScheme
+                    }
+                },
+                Array.Empty<string>()
+            } 
+        });
     });
 
 // Configure Lowercase URLs
@@ -90,6 +120,21 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
 //builder.Services.AddScoped<IArtistCommandService, ArtistCommandService>();
 builder.Services.AddScoped<IArtistQueryService, ArtistQueryService>();
+
+// Profiles Bounded Context Injection Configuration
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<IClientCommandService, ClientCommandService>();
+builder.Services.AddScoped<IClientQueryService, ClientQueryService>();
+builder.Services.AddScoped<IClientsContextFacade, ClientsContextFacade>();
+
+// IAM Bounded Context Injection Configuration
+builder.Services.Configure<TokenSettings>(builder.Configuration.GetSection("TokenSettings"));
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserCommandService, UserCommandService>();
+builder.Services.AddScoped<IUserQueryService, UserQueryService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IHashingService, HashingService>();
+builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
 
 
 var app = builder.Build();

@@ -1,5 +1,6 @@
 using Backend_MusicTime.Musician.Domain.Model.Aggregates;
 using Backend_MusicTime.Contracts.Domain.Model.Aggregates;
+using Backend_MusicTime.IAM.Domain.Model.Aggregates;
 using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
 using Microsoft.EntityFrameworkCore;
@@ -91,6 +92,13 @@ public class AppDbContext : DbContext
                 a.Property(s => s.PostalCode).HasColumnName("AddressPostalCode");
                 a.Property(s => s.Country).HasColumnName("AddressCountry");
             });
+        
+        // IAM Context
+        builder.Entity<User>().HasKey(u => u.Id);
+        builder.Entity<User>().Property(u => u.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<User>().Property(u => u.Username).IsRequired();
+        builder.Entity<User>().Property(u => u.PasswordHash).IsRequired();
+
 
         // Apply SnakeCase Naming Convention
         builder.UseSnakeCaseWithPluralizedTableNamingConvention();
