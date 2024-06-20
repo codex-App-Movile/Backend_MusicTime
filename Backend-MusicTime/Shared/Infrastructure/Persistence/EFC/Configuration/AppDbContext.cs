@@ -62,6 +62,35 @@ public class AppDbContext : DbContext
                 a.Property(s => s.Number).HasColumnName("EventLocationNumber");
                 a.Property(s => s.City).HasColumnName("EventLocationCity");
             });
+        
+        // Clients Context
+        builder.Entity<Client.Domain.Model.Aggregates.Client>().HasKey(p => p.Id);
+        builder.Entity<Client.Domain.Model.Aggregates.Client>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Client.Domain.Model.Aggregates.Client>().OwnsOne(p => p.Name,
+            n =>
+            {
+                n.WithOwner().HasForeignKey("Id");
+                n.Property(p => p.FirstName).HasColumnName("FirstName");
+                n.Property(p => p.LastName).HasColumnName("LastName");
+            });
+
+        builder.Entity<Client.Domain.Model.Aggregates.Client>().OwnsOne(p => p.Email,
+            e =>
+            {
+                e.WithOwner().HasForeignKey("Id");
+                e.Property(a => a.Address).HasColumnName("EmailAddress");
+            });
+
+        builder.Entity<Client.Domain.Model.Aggregates.Client>().OwnsOne(p => p.Address,
+            a =>
+            {
+                a.WithOwner().HasForeignKey("Id");
+                a.Property(s => s.Street).HasColumnName("AddressStreet");
+                a.Property(s => s.Number).HasColumnName("AddressNumber");
+                a.Property(s => s.City).HasColumnName("AddressCity");
+                a.Property(s => s.PostalCode).HasColumnName("AddressPostalCode");
+                a.Property(s => s.Country).HasColumnName("AddressCountry");
+            });
 
         // Apply SnakeCase Naming Convention
         builder.UseSnakeCaseWithPluralizedTableNamingConvention();
