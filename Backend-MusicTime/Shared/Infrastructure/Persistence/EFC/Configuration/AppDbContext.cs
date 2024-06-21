@@ -34,8 +34,8 @@ public class AppDbContext : DbContext
             n =>
             {
                 n.WithOwner().HasForeignKey("Id");
-                n.Property(p => p.FirstName).HasColumnName("FirstName");
-                n.Property(p => p.LastName).HasColumnName("LastName");
+                n.Property(m => m.FirstName).HasColumnName("FirstName");
+                n.Property(m => m.LastName).HasColumnName("LastName");
             });
 
         // Contract Context
@@ -45,15 +45,15 @@ public class AppDbContext : DbContext
             n =>
             {
                 n.WithOwner().HasForeignKey("Id");
-                n.Property(p => p.FirstName).HasColumnName("CustomerFirstName");
-                n.Property(p => p.LastName).HasColumnName("CustomerLastName");
+                n.Property(nc => nc.FirstName).HasColumnName("CustomerFirstName");
+                n.Property(nc => nc.LastName).HasColumnName("CustomerLastName");
             });
         builder.Entity<Contract>().OwnsOne(p => p.MusicianName,
-            n =>
+            m =>
             {
-                n.WithOwner().HasForeignKey("Id");
-                n.Property(p => p.FirstName).HasColumnName("MusicianFirstName");
-                n.Property(p => p.LastName).HasColumnName("MusicianLastName");
+                m.WithOwner().HasForeignKey("Id");
+                m.Property(pm => pm.FirstName).HasColumnName("MusicianFirstName");
+                m.Property(pm => pm.LastName).HasColumnName("MusicianLastName");
             });
         builder.Entity<Contract>().OwnsOne(p => p.EventLocation,
             a =>
