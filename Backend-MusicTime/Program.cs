@@ -10,8 +10,13 @@ using Backend_MusicTime.Customer.Domain.Services;
 using Backend_MusicTime.Customer.Infrastructure.Persistence.EFC.Repositories;
 using Backend_MusicTime.Customer.Interfaces.ACL;
 using Backend_MusicTime.Customer.Interfaces.ACL.Services;
+using Backend_MusicTime.IAM.Application.Internal.CommandServices;
 using Backend_MusicTime.IAM.Application.Internal.OutboundServices;
+using Backend_MusicTime.IAM.Application.Internal.QueryServices;
+using Backend_MusicTime.IAM.Domain.Repositories;
+using Backend_MusicTime.IAM.Domain.Services;
 using Backend_MusicTime.IAM.Infrastructure.Hashing.BCrypt.Services;
+using Backend_MusicTime.IAM.Infrastructure.Persistence.EFC.Repositories;
 using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Configuration;
 using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Services;
 using Backend_MusicTime.IAM.Interfaces.ACL;
@@ -136,6 +141,13 @@ builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
 builder.Services.AddScoped<IContractCommandService, ContractCommandService>();
 builder.Services.AddScoped<IContractRepository, ContractRepository>();
 builder.Services.AddScoped<IContractQueryService, ContractQueryService>();
+
+// Add this line to register your User
+builder.Services.AddScoped<IUserQueryService, UserQueryService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserCommandService, UserCommandService>();
+
+
 
 
 var app = builder.Build();

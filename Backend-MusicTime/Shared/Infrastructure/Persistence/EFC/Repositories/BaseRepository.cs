@@ -9,7 +9,7 @@ public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity> where T
     protected readonly AppDbContext Context;
     protected BaseRepository(AppDbContext context) => Context = context;
     public async Task AddAsync(TEntity entity) => await Context.Set<TEntity>().AddAsync(entity);
-    public Task<TEntity?> FindByIdAsync(int id)
+    public virtual Task<TEntity?> FindByIdAsync(int id)
     {
         throw new NotImplementedException();
     }

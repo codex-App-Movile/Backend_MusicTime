@@ -15,6 +15,11 @@ namespace Backend_MusicTime.Contracts.Infrastructure.Persistence.EFC.Repositorie
         {
             this.context = context;
         }
+        
+        public override async Task<Contract?> FindByIdAsync(int id)
+        {
+            return await context.Contracts.FindAsync(id);
+        }
 
         public async Task<Contract?> FindByIdAsync(string id)
         {
