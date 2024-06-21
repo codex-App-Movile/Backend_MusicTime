@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Backend-MusicTime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77ef320811587f8532983b82c414521eaa94e687")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ee9a7c4b5ab694d2d3292337f6f04ec35d95e14")]
 [assembly: System.Reflection.AssemblyProductAttribute("Backend-MusicTime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Backend-MusicTime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

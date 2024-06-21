@@ -21,6 +21,7 @@ using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Configuration;
 using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Services;
 using Backend_MusicTime.IAM.Interfaces.ACL;
 using Backend_MusicTime.IAM.Interfaces.ACL.Services;
+using Backend_MusicTime.Musician.Application.Internal.CommandServices;
 using Backend_MusicTime.Musician.Application.Internal.QueryServices;
 using Backend_MusicTime.Musician.Domain.Repositories;
 using Backend_MusicTime.Musician.Domain.Services;
@@ -119,7 +120,7 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Musician bounded context injection configuration
 builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
-//builder.Services.AddScoped<IArtistCommandService, ArtistCommandService>();
+builder.Services.AddScoped<IArtistCommandService, ArtistCommandService>();
 builder.Services.AddScoped<IArtistQueryService, ArtistQueryService>();
 
 // Profiles Bounded Context Injection Configuration
