@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Personal\\Videos\\UPC-Projects\\Aplicaciones Web\\FINAL-TF\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj": {}
+    "C:\\Users\\Carlos Daniel\\Documents\\GitHub\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Personal\\Videos\\UPC-Projects\\Aplicaciones Web\\FINAL-TF\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj": {
+    "C:\\Users\\Carlos Daniel\\Documents\\GitHub\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Personal\\Videos\\UPC-Projects\\Aplicaciones Web\\FINAL-TF\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Daniel\\Documents\\GitHub\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
         "projectName": "Backend-MusicTime",
-        "projectPath": "C:\\Users\\Personal\\Videos\\UPC-Projects\\Aplicaciones Web\\FINAL-TF\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
-        "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Personal\\Videos\\UPC-Projects\\Aplicaciones Web\\FINAL-TF\\Backend_MusicTime\\Backend-MusicTime\\obj\\",
+        "projectPath": "C:\\Users\\Carlos Daniel\\Documents\\GitHub\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
+        "packagesPath": "C:\\Users\\Carlos Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Daniel\\Documents\\GitHub\\Backend_MusicTime\\Backend-MusicTime\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Carlos Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
