@@ -5,6 +5,11 @@ using Backend_MusicTime.Client.Domain.Services;
 using Backend_MusicTime.Client.Infrastructure.Persistence.EFC.Repositories;
 using Backend_MusicTime.Client.Interfaces.ACL;
 using Backend_MusicTime.Client.Interfaces.ACL.Services;
+using Backend_MusicTime.Contracts.Application.Internal.CommandServices;
+using Backend_MusicTime.Contracts.Application.Internal.QueryServices;
+using Backend_MusicTime.Contracts.Domain.Repositories;
+using Backend_MusicTime.Contracts.Domain.Services;
+using Backend_MusicTime.Contracts.Infrastructure.Persistence.EFC.Repositories;
 using Backend_MusicTime.IAM.Application.Internal.CommandServices;
 using Backend_MusicTime.IAM.Application.Internal.OutboundServices;
 using Backend_MusicTime.IAM.Application.Internal.QueryServices;
@@ -108,14 +113,11 @@ builder.Services.AddSwaggerGen(
         });
     });
 
-// Configure Lowercase URLs
-builder.Services.AddRouting(options => options.LowercaseUrls = true);
-
 // Configure Dependency Injection
 
 // Shared Bounded Context Injection Configuration
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-    
+
 // Musician bounded context injection configuration
 builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
 //builder.Services.AddScoped<IArtistCommandService, ArtistCommandService>();
@@ -135,6 +137,11 @@ builder.Services.AddScoped<IUserQueryService, UserQueryService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IHashingService, HashingService>();
 builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
+
+// Add this line to register your ContractCommandService
+builder.Services.AddScoped<IContractCommandService, ContractCommandService>();
+builder.Services.AddScoped<IContractRepository, ContractRepository>();
+builder.Services.AddScoped<IContractQueryService, ContractQueryService>();
 
 
 var app = builder.Build();

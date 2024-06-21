@@ -19,7 +19,7 @@ namespace Backend_MusicTime.Contracts.Application.Internal.CommandServices
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<Contract>? Handle(CreateContractCommand command)
+        public async Task<Contract> Handle(CreateContractCommand command)
         {
             var customerName = new PersonName(command.CustomerFirstName, command.CustomerLastName);
             var musicianName = new PersonName(command.MusicianFirstName, command.MusicianLastName);
