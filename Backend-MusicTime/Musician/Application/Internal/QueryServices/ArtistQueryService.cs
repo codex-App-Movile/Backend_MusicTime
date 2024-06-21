@@ -17,4 +17,8 @@ public class ArtistQueryService(IArtistRepository artistRepository) : IArtistQue
         return await artistRepository.FindByIdAsync(query.MusicianId);
     }
     
+    public async Task<Artist?> Handle(GetMusicianByGroupQuery query)
+    {
+        return await artistRepository.FindByGroupAsync(query.GroupMusician);
+    }
 }

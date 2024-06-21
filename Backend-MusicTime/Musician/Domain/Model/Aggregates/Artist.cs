@@ -28,9 +28,8 @@ public partial class Artist
         GroupMusician = groupMusician;
         Id = id;
     }
-    public Artist(CreateMusicianCommand command, int id)
+    public Artist(CreateMusicianCommand command)
     {
-        Id = id;
         Name = new MusicianName(command.FirstName, command.LastName);
         Description = command.Description;
         Image = command.Image;
