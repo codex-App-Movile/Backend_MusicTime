@@ -1,27 +1,21 @@
-using Backend_MusicTime.Client.Application.Internal.CommandServices;
-using Backend_MusicTime.Client.Application.Internal.QueryServices;
-using Backend_MusicTime.Client.Domain.Repositories;
-using Backend_MusicTime.Client.Domain.Services;
-using Backend_MusicTime.Client.Infrastructure.Persistence.EFC.Repositories;
-using Backend_MusicTime.Client.Interfaces.ACL;
-using Backend_MusicTime.Client.Interfaces.ACL.Services;
 using Backend_MusicTime.Contracts.Application.Internal.CommandServices;
 using Backend_MusicTime.Contracts.Application.Internal.QueryServices;
 using Backend_MusicTime.Contracts.Domain.Repositories;
 using Backend_MusicTime.Contracts.Domain.Services;
 using Backend_MusicTime.Contracts.Infrastructure.Persistence.EFC.Repositories;
-using Backend_MusicTime.IAM.Application.Internal.CommandServices;
+using Backend_MusicTime.Customer.Application.Internal.CommandServices;
+using Backend_MusicTime.Customer.Application.Internal.QueryServices;
+using Backend_MusicTime.Customer.Domain.Repositories;
+using Backend_MusicTime.Customer.Domain.Services;
+using Backend_MusicTime.Customer.Infrastructure.Persistence.EFC.Repositories;
+using Backend_MusicTime.Customer.Interfaces.ACL;
+using Backend_MusicTime.Customer.Interfaces.ACL.Services;
 using Backend_MusicTime.IAM.Application.Internal.OutboundServices;
-using Backend_MusicTime.IAM.Application.Internal.QueryServices;
-using Backend_MusicTime.IAM.Domain.Repositories;
-using Backend_MusicTime.IAM.Domain.Services;
 using Backend_MusicTime.IAM.Infrastructure.Hashing.BCrypt.Services;
-using Backend_MusicTime.IAM.Infrastructure.Persistence.EFC.Repositories;
 using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Configuration;
 using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Services;
 using Backend_MusicTime.IAM.Interfaces.ACL;
 using Backend_MusicTime.IAM.Interfaces.ACL.Services;
-using Backend_MusicTime.Musician.Application.Internal.CommandServices;
 using Backend_MusicTime.Musician.Application.Internal.QueryServices;
 using Backend_MusicTime.Musician.Domain.Repositories;
 using Backend_MusicTime.Musician.Domain.Services;
@@ -124,16 +118,16 @@ builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
 builder.Services.AddScoped<IArtistQueryService, ArtistQueryService>();
 
 // Profiles Bounded Context Injection Configuration
-builder.Services.AddScoped<IClientRepository, ClientRepository>();
-builder.Services.AddScoped<IClientCommandService, ClientCommandService>();
-builder.Services.AddScoped<IClientQueryService, ClientQueryService>();
-builder.Services.AddScoped<IClientsContextFacade, ClientsContextFacade>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<ICustomerCommandService, CustomerCommandService>();
+builder.Services.AddScoped<ICustomerQueryService, CustomerQueryService>();
+builder.Services.AddScoped<ICustomersContextFacade, CustomersContextFacade>();
 
 // IAM Bounded Context Injection Configuration
 builder.Services.Configure<TokenSettings>(builder.Configuration.GetSection("TokenSettings"));
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserCommandService, UserCommandService>();
-builder.Services.AddScoped<IUserQueryService, UserQueryService>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<ICustomerCommandService, CustomerCommandService>();
+builder.Services.AddScoped<ICustomerQueryService, CustomerQueryService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IHashingService, HashingService>();
 builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();

@@ -65,9 +65,9 @@ public class AppDbContext : DbContext
             });
         
         // Clients Context
-        builder.Entity<Client.Domain.Model.Aggregates.Client>().HasKey(p => p.Id);
-        builder.Entity<Client.Domain.Model.Aggregates.Client>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
-        builder.Entity<Client.Domain.Model.Aggregates.Client>().OwnsOne(p => p.Name,
+        builder.Entity<Customer.Domain.Model.Aggregates.Customer>().HasKey(p => p.Id);
+        builder.Entity<Customer.Domain.Model.Aggregates.Customer>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Customer.Domain.Model.Aggregates.Customer>().OwnsOne(p => p.Name,
             n =>
             {
                 n.WithOwner().HasForeignKey("Id");
@@ -75,14 +75,14 @@ public class AppDbContext : DbContext
                 n.Property(p => p.LastName).HasColumnName("LastName");
             });
 
-        builder.Entity<Client.Domain.Model.Aggregates.Client>().OwnsOne(p => p.Email,
+        builder.Entity<Customer.Domain.Model.Aggregates.Customer>().OwnsOne(p => p.Email,
             e =>
             {
                 e.WithOwner().HasForeignKey("Id");
                 e.Property(a => a.Address).HasColumnName("EmailAddress");
             });
 
-        builder.Entity<Client.Domain.Model.Aggregates.Client>().OwnsOne(p => p.Address,
+        builder.Entity<Customer.Domain.Model.Aggregates.Customer>().OwnsOne(p => p.Address,
             a =>
             {
                 a.WithOwner().HasForeignKey("Id");
