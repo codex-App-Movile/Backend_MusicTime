@@ -41,6 +41,7 @@ public class AppDbContext : DbContext
         // Contract Context
         builder.Entity<Contract>().HasKey(p => p.Id);
         builder.Entity<Contract>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Contract>().Property(p => p.EventDate).HasColumnType("datetime");
         builder.Entity<Contract>().OwnsOne(p => p.CustomerName,
             n =>
             {
