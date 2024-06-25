@@ -5,7 +5,7 @@ public record CreateContractCommand(
     string CustomerLastName,
     string MusicianFirstName,
     string MusicianLastName,
-    string Terms,
+    string Reason,
     DateTime EventDate, 
     string Street, 
     string Number, 

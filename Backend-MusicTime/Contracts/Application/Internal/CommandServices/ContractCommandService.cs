@@ -24,7 +24,7 @@ namespace Backend_MusicTime.Contracts.Application.Internal.CommandServices
         {
             var customerName = new PersonName(command.CustomerFirstName, command.CustomerLastName);
             var musicianName = new PersonName(command.MusicianFirstName, command.MusicianLastName);
-            var terms = command.Terms;
+            var terms = command.Reason;
 
             var contract = new Contract(command, customerName, musicianName, terms);
             try

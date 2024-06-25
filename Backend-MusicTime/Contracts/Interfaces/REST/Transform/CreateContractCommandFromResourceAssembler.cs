@@ -12,7 +12,7 @@ public class CreateContractCommandFromResourceAssembler
             resource.CustomerLastName, 
             resource.MusicianFirstName, 
             resource.MusicianLastName, 
-            resource.Terms, 
+            resource.Reason, 
             resource.EventDate, 
             resource.EventLocationStreet, 
             resource.EventLocationNumber, 

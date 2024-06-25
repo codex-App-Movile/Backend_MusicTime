@@ -5,7 +5,7 @@ public record CreateContractResource(
     string CustomerLastName, 
     string MusicianFirstName, 
     string MusicianLastName, 
-    string Terms,
+    string Reason,
     DateTime EventDate,  
     string EventLocationStreet, 
     string EventLocationNumber, 

@@ -13,6 +13,6 @@ public static class ContractResourceFromEntityAssembler
             entity.FullMusicianName,
             entity.EventDate,
             entity.StreetAddress,
-            entity.Terms); 
+            entity.Reason); 
     }
 }
