@@ -5,6 +5,7 @@ using Backend_MusicTime.Shared.Domain.Repositories;
 
 using Backend_MusicTime.Contracts.Domain.Model.ValueObjects;
 using Backend_MusicTime.Contracts.Domain.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace Backend_MusicTime.Contracts.Application.Internal.CommandServices
 {
@@ -39,33 +40,47 @@ namespace Backend_MusicTime.Contracts.Application.Internal.CommandServices
             }
         }
 
-        public Task<Contract>? Handle(int command)
+        public async Task<Contract>? Handle(int contractId)
         {
-            throw new NotImplementedException();
-        }
-
-        public async Task<Contract>? Handle(UpdateContractCommand command)
-        {
-            var contract = await _contractRepository.FindByIdAsync(command.Id);
+            var contract = await _contractRepository.FindByIdAsync(contractId);
             if (contract == null)
             {
+                Console.WriteLine($"Contract with ID {contractId} not found.");
                 return null;
             }
 
-            contract.EventDate = command.EventDate;
-            contract.EventLocation = new StreetAddress(command.Street, command.Number, command.City);
-
-            try
-            {
-                _contractRepository.Update(contract);
-                await _unitOfWork.CompleteAsync();
-                return contract;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine($"An error occurred while updating the contract: {e.Message}");
-                return null;
-            }
+            return contract;
         }
+
+public async Task<Contract>? Handle(UpdateContractCommand command)
+{
+    try
+    {
+        var contract = await _contractRepository.FindByIdAsync(command.Id);
+        if (contract == null)
+        {
+            Console.WriteLine($"Contract with ID {command.Id} not found.");
+            return null;
+        }
+
+        contract.EventDate = command.EventDate;
+        contract.EventLocation = new StreetAddress(command.Street, command.Number, command.City);
+
+        _contractRepository.Update(contract);
+        await _unitOfWork.CompleteAsync();
+        Console.WriteLine($"Contract with ID {command.Id} updated successfully.");
+        return contract;
+    }
+    catch (DbUpdateException e)
+    {
+        Console.WriteLine($"A database error occurred while updating the contract: {e.Message}");
+        return null;
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine($"An unexpected error occurred while updating the contract: {e.Message}");
+        return null;
+    }
+}
     }
 }

@@ -46,9 +46,9 @@ namespace Backend_MusicTime.Contracts.Infrastructure.Persistence.EFC.Repositorie
             return await context.Contracts.ToListAsync();
         }
 
-        public Task<Contract?> FindContractByIdAsync(int id)
+        public async Task<Contract?> FindContractByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await context.Contracts.FindAsync(id);
         }
 
         public Task<IEnumerable<Contract>> FindByMusicianIdAsync(int queryMusicianId)

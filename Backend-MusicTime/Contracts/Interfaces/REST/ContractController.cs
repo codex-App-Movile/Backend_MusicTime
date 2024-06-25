@@ -52,6 +52,18 @@ namespace Backend_MusicTime.Contracts.Interfaces.REST
             return Ok(contractResource);
         }
         
+        [HttpPut("{contractId:int}")]
+        public async Task<IActionResult> UpdateContract(int contractId, UpdateContractResource resource)
+        {
+            var updateContractCommand = UpdateContractCommandFromResourceAssembler.ToCommandFromResource(resource, contractId);
+
+            var result = await _contractCommandService.Handle(updateContractCommand);
+
+            if (result == null) return NotFound($"Contract with ID {contractId} not found.");
+
+            return NoContent(); // O puedes devolver Ok() si prefieres confirmar la actualización con una respuesta.
+        }
+
         
     }
 }
