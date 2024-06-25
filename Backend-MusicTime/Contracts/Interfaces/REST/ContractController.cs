@@ -63,6 +63,17 @@ namespace Backend_MusicTime.Contracts.Interfaces.REST
 
             return NoContent(); // O puedes devolver Ok() si prefieres confirmar la actualización con una respuesta.
         }
+        
+        [HttpDelete("{contractId:int}")]
+        public async Task<IActionResult> DeleteContract(int contractId)
+        {
+            var deleteCommand = new DeleteContractCommand(contractId);
+            var result = await _contractCommandService.DeleteContractByIdAsync(deleteCommand);
+
+            if (!result) return NotFound($"Contract with ID {contractId} not found.");
+
+            return NoContent();
+        }
 
         
     }

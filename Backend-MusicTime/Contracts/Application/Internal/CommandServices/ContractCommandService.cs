@@ -40,6 +40,29 @@ namespace Backend_MusicTime.Contracts.Application.Internal.CommandServices
             }
         }
 
+        public async Task<bool> DeleteContractByIdAsync(DeleteContractCommand command)
+        {
+            try
+            {
+                var contract = await _contractRepository.FindByIdAsync(command.Id);
+                if (contract == null)
+                {
+                    Console.WriteLine($"Contract with ID {command.Id} not found.");
+                    return false;
+                }
+
+                _contractRepository.Remove(contract);
+                await _unitOfWork.CompleteAsync();
+                Console.WriteLine($"Contract with ID {command.Id} deleted successfully.");
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"An error occurred while deleting the contract: {e.Message}");
+                return false;
+            }
+        }
+
         public async Task<Contract>? Handle(int contractId)
         {
             var contract = await _contractRepository.FindByIdAsync(contractId);

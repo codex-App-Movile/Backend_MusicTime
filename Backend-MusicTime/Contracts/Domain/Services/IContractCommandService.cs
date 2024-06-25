@@ -9,5 +9,7 @@ namespace Backend_MusicTime.Contracts.Domain.Services
         Task<Contract>? Handle(int command);
         Task<Contract>? Handle(UpdateContractCommand command);
         Task<Contract> Handle(CreateContractCommand createContractCommand);
+        Task<bool> DeleteContractByIdAsync(DeleteContractCommand command);
+        
     }
 }
