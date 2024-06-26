@@ -10,6 +10,13 @@ using Backend_MusicTime.Customer.Domain.Services;
 using Backend_MusicTime.Customer.Infrastructure.Persistence.EFC.Repositories;
 using Backend_MusicTime.Customer.Interfaces.ACL;
 using Backend_MusicTime.Customer.Interfaces.ACL.Services;
+using Backend_MusicTime.Enterprise.Application.Internal.CommandServices;
+using Backend_MusicTime.Enterprise.Application.Internal.QueryServices;
+using Backend_MusicTime.Enterprise.Domain.Repositories;
+using Backend_MusicTime.Enterprise.Domain.Services;
+using Backend_MusicTime.Enterprise.Infrastructure.Persistence.EFC.Repositories;
+using Backend_MusicTime.Enterprise.Interfaces.ACL;
+using Backend_MusicTime.Enterprise.Interfaces.ACL.Services;
 using Backend_MusicTime.IAM.Application.Internal.CommandServices;
 using Backend_MusicTime.IAM.Application.Internal.OutboundServices;
 using Backend_MusicTime.IAM.Application.Internal.QueryServices;
@@ -128,6 +135,12 @@ builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<ICustomerCommandService, CustomerCommandService>();
 builder.Services.AddScoped<ICustomerQueryService, CustomerQueryService>();
 builder.Services.AddScoped<ICustomersContextFacade, CustomersContextFacade>();
+
+// Enterprise Bounded Context Injection Configuration
+builder.Services.AddScoped<IEnterpriseRepository, EnterpriseRepository>();
+builder.Services.AddScoped<IEnterpriseCommandService, EnterpriseCommandService>();
+builder.Services.AddScoped<IEnterpriseQueryService, EnterpriseQueryService>();
+builder.Services.AddScoped<IEnterpriseContextFacade, EnterpriseContextFacade>();
 
 // IAM Bounded Context Injection Configuration
 builder.Services.Configure<TokenSettings>(builder.Configuration.GetSection("TokenSettings"));
