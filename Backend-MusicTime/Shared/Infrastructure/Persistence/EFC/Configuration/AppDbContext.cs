@@ -95,6 +95,37 @@ public class AppDbContext : DbContext
                 a.Property(s => s.Country).HasColumnName("AddressCountry");
             });
         
+        
+        //Enterprise Context
+        
+        builder.Entity<Enterprise.Domain.Model.Aggregates.Enterprise>().HasKey(p => p.Id);
+        builder.Entity<Enterprise.Domain.Model.Aggregates.Enterprise>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Enterprise.Domain.Model.Aggregates.Enterprise>().OwnsOne(p => p.Name,
+            n =>
+            {
+                n.WithOwner().HasForeignKey("Id");
+                n.Property(p => p.Name).HasColumnName("Name");
+            });
+        
+        builder.Entity<Enterprise.Domain.Model.Aggregates.Enterprise>().OwnsOne(p => p.Email,
+            e =>
+            {
+                e.WithOwner().HasForeignKey("Id");
+                e.Property(a => a.Address).HasColumnName("EmailAddress");
+            });
+        
+        builder.Entity<Enterprise.Domain.Model.Aggregates.Enterprise>().OwnsOne(p => p.Address,
+            a =>
+            {
+                a.WithOwner().HasForeignKey("Id");
+                a.Property(s => s.Street).HasColumnName("AddressStreet");
+                a.Property(s => s.Number).HasColumnName("AddressNumber");
+                a.Property(s => s.City).HasColumnName("AddressCity");
+                a.Property(s => s.PostalCode).HasColumnName("AddressPostalCode");
+                a.Property(s => s.Country).HasColumnName("AddressCountry");
+            });
+        
+        
         // IAM Context
         builder.Entity<User>().HasKey(u => u.Id);
         builder.Entity<User>().Property(u => u.Id).IsRequired().ValueGeneratedOnAdd();
