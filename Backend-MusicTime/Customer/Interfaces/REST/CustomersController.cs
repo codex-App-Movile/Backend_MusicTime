@@ -10,8 +10,8 @@ namespace Backend_MusicTime.Customer.Interfaces.REST;
 [ApiController] 
 [Route("api/v1/[controller]")]
 [Produces(MediaTypeNames.Application.Json)] 
-public class CustomersController(ICustomerCommandService customerCommandService, ICustomerQueryService customerQueryService)
-: ControllerBase
+public class CustomersController(ICustomerCommandService customerCommandService, ICustomerQueryService customerQueryService) 
+    : ControllerBase
 {
     [HttpGet("{customerId:int}")]
     public async Task<IActionResult> GetCustomerById(int customerId)
