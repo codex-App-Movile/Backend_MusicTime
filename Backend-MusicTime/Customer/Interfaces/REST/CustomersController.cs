@@ -13,32 +13,46 @@ namespace Backend_MusicTime.Customer.Interfaces.REST;
 public class CustomersController(ICustomerCommandService customerCommandService, ICustomerQueryService customerQueryService)
 : ControllerBase
 {
-    [HttpGet("{clientId:int}")]
-    public async Task<IActionResult> GetClientById(int clientId)
+    [HttpGet("{customerId:int}")]
+    public async Task<IActionResult> GetCustomerById(int customerId)
     {
-        var getClientByIdQuery = new GetCustomerByIdQuery(clientId);
-        var client = await customerQueryService.Handle(getClientByIdQuery);
-        if (client == null) return NotFound();
-        var clientResource = CustomerResourceFromEntityAssembler.ToResourceFromEntity(client);
-        return Ok(clientResource);
+        var getCustomerByIdQuery = new GetCustomerByIdQuery(customerId);
+        var customer = await customerQueryService.Handle(getCustomerByIdQuery);
+        if (customer == null) return NotFound();
+        var customerResource = CustomerResourceFromEntityAssembler.ToResourceFromEntity(customer);
+        return Ok(customerResource);
     }
     
     [HttpPost]
-    public async Task<IActionResult> CreateClient(CreateCustomerResource resource)
+    public async Task<IActionResult> CreateCustomer(CreateCustomerResource resource)
     {
-        var createClientCommand = CreateCustomerCommandFromResourceAssembler.ToCommandFromResource(resource);
-        var client = await customerCommandService.Handle(createClientCommand);
-        if (client is null) return BadRequest();
-        var clientResource = CustomerResourceFromEntityAssembler.ToResourceFromEntity(client);
-        return CreatedAtAction(nameof(GetClientById), new {clientId = clientResource.Id}, clientResource);
+        var createCustomerCommand = CreateCustomerCommandFromResourceAssembler.ToCommandFromResource(resource);
+        var customer = await customerCommandService.Handle(createCustomerCommand);
+        if (customer is null) return BadRequest();
+        var customerResource = CustomerResourceFromEntityAssembler.ToResourceFromEntity(customer);
+        return CreatedAtAction(nameof(GetCustomerById), new {customerId = customerResource.Id}, customerResource);
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAllClients()
+    public async Task<IActionResult> GetAllCustomers()
     {
-        var getAllClientsQuery = new GetAllCustomersQuery();
-        var clients = await customerQueryService.Handle(getAllClientsQuery);
-        var clientResources = clients.Select(CustomerResourceFromEntityAssembler.ToResourceFromEntity);   
-        return Ok(clientResources);
+        var getAllCustomersQuery = new GetAllCustomersQuery();
+        var customers = await customerQueryService.Handle(getAllCustomersQuery);
+        var customerResources = customers.Select(CustomerResourceFromEntityAssembler.ToResourceFromEntity);   
+        return Ok(customerResources);
+    }
+
+    [HttpPut("{customerId:int}")]
+    public async Task<IActionResult> UpdateCustomer(int customerId, UpdateCustomerResource resource)
+    {
+        var updateCustomerCommand =
+            UpdateCustomerCommandFromResourceAssembler.ToCommandFromResource(resource, customerId);
+        var result = await customerCommandService.Handle(updateCustomerCommand);
+        if (result == null)
+        {
+            return NotFound($"Customer with id {customerId} not found");
+        }
+
+        return NoContent();
     }
 }

@@ -6,9 +6,9 @@ namespace Backend_MusicTime.Customer.Domain.Model.Aggregates;
 public partial class Customer
 {
     public int Id { get; }
-    public CustomerName Name { get; private set; }    
+    public CustomerName Name { get; set; }    
     public EmailAddress Email { get; private set; }
-    public CustomerAddress Address { get; private set; }
+    public CustomerAddress Address { get; set; }
 
     public string FullName => Name.FullName;
     public string EmailAddress => Email.Address;

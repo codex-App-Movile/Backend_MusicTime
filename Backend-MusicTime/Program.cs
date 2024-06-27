@@ -123,7 +123,7 @@ builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
 builder.Services.AddScoped<IArtistCommandService, ArtistCommandService>();
 builder.Services.AddScoped<IArtistQueryService, ArtistQueryService>();
 
-// Profiles Bounded Context Injection Configuration
+// Customers Bounded Context Injection Configuration
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<ICustomerCommandService, CustomerCommandService>();
 builder.Services.AddScoped<ICustomerQueryService, CustomerQueryService>();
