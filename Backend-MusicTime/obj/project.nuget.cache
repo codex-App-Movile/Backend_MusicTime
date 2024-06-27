@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lQWkCAymdmlHa3X6wsMndAoj3YAK4GQ5b2P67EZZHlFK7ejICAIDA5mn4dRa9dmDcnxBIe1zO6/kLFrdvphXuQ==",
+  "dgSpecHash": "yGUcmqGnAVKK4+5l6bP3j5BhYvVCE9dOee6JF6PKK81QqEjBY3YC3Rcfni21Ib9ZL8leR9SO+eCUkebg88f58w==",
   "success": true,
-  "projectFilePath": "/Users/alumnos/Documents/Backend_MusicTime/Backend-MusicTime/Backend-MusicTime.csproj",
+  "projectFilePath": "/Users/alumnos/Documents/WEB-FINAL/Backend_MusicTime/Backend-MusicTime/Backend-MusicTime.csproj",
   "expectedPackageFiles": [
     "/Users/alumnos/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/alumnos/.nuget/packages/bouncycastle.cryptography/2.2.1/bouncycastle.cryptography.2.2.1.nupkg.sha512",

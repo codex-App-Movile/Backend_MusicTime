@@ -17,6 +17,7 @@ using Backend_MusicTime.IAM.Domain.Repositories;
 using Backend_MusicTime.IAM.Domain.Services;
 using Backend_MusicTime.IAM.Infrastructure.Hashing.BCrypt.Services;
 using Backend_MusicTime.IAM.Infrastructure.Persistence.EFC.Repositories;
+using Backend_MusicTime.IAM.Infrastructure.Pipeline.Middleware.Extensions;
 using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Configuration;
 using Backend_MusicTime.IAM.Infrastructure.Tokens.JWT.Services;
 using Backend_MusicTime.IAM.Interfaces.ACL;
@@ -113,6 +114,20 @@ builder.Services.AddSwaggerGen(
         });
     });
 
+// Configure Lowercase URLs
+builder.Services.AddRouting(options => options.LowercaseUrls = true);
+
+// Add CORS Policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowedAllPolicy",
+        policy => policy
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
+
+
 // Configure Dependency Injection
 
 // Shared Bounded Context Injection Configuration
@@ -167,6 +182,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+// Apply CORS Policy
+app.UseCors("AllowedAllPolicy");
+
+// Add Authorization Middleware to the Request Pipeline
+
+//app.UseRequestAuthorization();
 
 app.UseHttpsRedirection();
 

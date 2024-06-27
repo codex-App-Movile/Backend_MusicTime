@@ -7,6 +7,6 @@ public class ArtistResourceFromEntityAssembler
 {
     public static ArtistResource ToResourceFromEntity(Artist entity)
     {
-        return new ArtistResource(entity.Id, entity.FullName);
+        return new ArtistResource(entity.Id, entity.FullName, entity.Description, entity.Image, entity.GroupMusician);
     }
 }
