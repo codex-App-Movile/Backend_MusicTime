@@ -11,6 +11,7 @@ public class AppDbContext : DbContext
 {
     public DbSet<Artist> Artists { get; set; }
     public DbSet<Contract> Contracts { get; set; }
+    public DbSet<Customer.Domain.Model.Aggregates.Customer> Customers { get; set; }
 
     public AppDbContext(DbContextOptions options) : base(options)
     {
@@ -65,7 +66,7 @@ public class AppDbContext : DbContext
                 a.Property(s => s.City).HasColumnName("EventLocationCity");
             });
         
-        // Clients Context
+        // Customers Context
         builder.Entity<Customer.Domain.Model.Aggregates.Customer>().HasKey(p => p.Id);
         builder.Entity<Customer.Domain.Model.Aggregates.Customer>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<Customer.Domain.Model.Aggregates.Customer>().OwnsOne(p => p.Name,
