@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\carptea para clonar tf\\web\\BACKEND\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj": {}
+    "/Users/alumnos/Documents/Backend_MusicTime/Backend-MusicTime/Backend-MusicTime.csproj": {}
   },
   "projects": {
-    "D:\\carptea para clonar tf\\web\\BACKEND\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj": {
+    "/Users/alumnos/Documents/Backend_MusicTime/Backend-MusicTime/Backend-MusicTime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\carptea para clonar tf\\web\\BACKEND\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
+        "projectUniqueName": "/Users/alumnos/Documents/Backend_MusicTime/Backend-MusicTime/Backend-MusicTime.csproj",
         "projectName": "Backend-MusicTime",
-        "projectPath": "D:\\carptea para clonar tf\\web\\BACKEND\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "D:\\carptea para clonar tf\\web\\BACKEND\\Backend_MusicTime\\Backend-MusicTime\\obj\\",
+        "projectPath": "/Users/alumnos/Documents/Backend_MusicTime/Backend-MusicTime/Backend-MusicTime.csproj",
+        "packagesPath": "/Users/alumnos/.nuget/packages/",
+        "outputPath": "/Users/alumnos/Documents/Backend_MusicTime/Backend-MusicTime/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/alumnos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -110,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\alber\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
