@@ -28,7 +28,11 @@ namespace Backend_MusicTime.Contracts.Interfaces.REST
         {
             var createContractCommand = CreateContractCommandFromResourceAssembler.ToCommandFromResource(resource);
             var contract = await _contractCommandService.Handle(createContractCommand);
-            if (contract is null) return BadRequest();
+            if (contract == null)
+            {
+                return BadRequest();
+            }
+
             var contractResource = ContractResourceFromEntityAssembler.ToResourceFromEntity(contract);
             return CreatedAtAction(nameof(GetContractById), new {contractId = contractResource.Id}, contractResource);
         }

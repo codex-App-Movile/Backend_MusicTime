@@ -38,8 +38,11 @@ using Backend_MusicTime.Shared.Domain.Repositories;
 using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration;
 using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Repositories;
 using Backend_MusicTime.Shared.Interfaces.ASP.Configuration;
-
-
+using Backend_MusicTime.Suscriptions.Application.Internal.CommandServices;
+using Backend_MusicTime.Suscriptions.Application.Internal.QueryServices;
+using Backend_MusicTime.Suscriptions.Domain.Repositories;
+using Backend_MusicTime.Suscriptions.Domain.Services;
+using Backend_MusicTime.Suscriptions.Infrastructure.Persistence.EFC.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -166,7 +169,12 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IHashingService, HashingService>();
 builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
 
-// Add this line to register your ContractCommandService
+// Suscription Bounded Context Injection Configuration
+builder.Services.AddScoped<ISuscriptionRepository, SuscriptionRepository>();
+builder.Services.AddScoped<ISuscriptionCommandService, SuscriptionCommandService>();
+builder.Services.AddScoped<ISuscriptionQueryService, SuscriptionQueryService>();
+
+// Contract Bounded Context Injection Configuration
 builder.Services.AddScoped<IContractCommandService, ContractCommandService>();
 builder.Services.AddScoped<IContractRepository, ContractRepository>();
 builder.Services.AddScoped<IContractQueryService, ContractQueryService>();
@@ -175,9 +183,6 @@ builder.Services.AddScoped<IContractQueryService, ContractQueryService>();
 builder.Services.AddScoped<IUserQueryService, UserQueryService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserCommandService, UserCommandService>();
-
-
-
 
 var app = builder.Build();
 

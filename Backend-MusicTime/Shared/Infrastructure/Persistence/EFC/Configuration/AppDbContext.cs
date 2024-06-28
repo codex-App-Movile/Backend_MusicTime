@@ -2,6 +2,7 @@ using Backend_MusicTime.Musician.Domain.Model.Aggregates;
 using Backend_MusicTime.Contracts.Domain.Model.Aggregates;
 using Backend_MusicTime.IAM.Domain.Model.Aggregates;
 using Backend_MusicTime.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
+using Backend_MusicTime.Suscriptions.Domain.Model.Aggregates;
 using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
 using Microsoft.EntityFrameworkCore;
 
@@ -131,6 +132,20 @@ public class AppDbContext : DbContext
         builder.Entity<User>().Property(u => u.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<User>().Property(u => u.Username).IsRequired();
         builder.Entity<User>().Property(u => u.PasswordHash).IsRequired();
+        
+        // Suscriptions Context
+        builder.Entity<Suscription>().HasKey(s => s.Id);
+        builder.Entity<Suscription>().Property(s => s.Id).IsRequired();
+        builder.Entity<Suscription>().Property(s => s.Name).IsRequired();
+        builder.Entity<Suscription>().Property(s => s.Message).IsRequired();
+        builder.Entity<Suscription>().Property(s => s.Features).IsRequired();
+        builder.Entity<Suscription>().Property(s => s.Image).IsRequired();
+        builder.Entity<Suscription>().OwnsOne(s => s.Price,
+            p =>
+            {
+                p.WithOwner().HasForeignKey("Id");
+                p.Property(pr => pr.PricePerMonth).HasColumnName("PricePerMonth");
+            });
 
 
         // Apply SnakeCase Naming Convention

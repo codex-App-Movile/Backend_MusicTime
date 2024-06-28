@@ -14,10 +14,10 @@ public class ArtistRepository(AppDbContext context) : BaseRepository<Artist>(con
         throw new NotImplementedException();
     }
     
-    public override async Task<Artist?> FindByIdAsync(int id)
+    /*public async Task<Artist?> FindByIdAsync(int id)
     {
         return await context.Artists.FindAsync(id);
-    }
+    }*/
 
     public Task<Artist?> FindArtistByGroupAsync(Guid groupMusician)
     {
