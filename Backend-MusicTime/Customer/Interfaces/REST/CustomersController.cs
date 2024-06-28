@@ -53,6 +53,6 @@ public class CustomersController(ICustomerCommandService customerCommandService,
             return NotFound($"Customer with id {customerId} not found");
         }
 
-        return NoContent();
+        return Ok(result);
     }
 }
