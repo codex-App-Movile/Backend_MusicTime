@@ -8559,19 +8559,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Personal\\.nuget\\packages\\": {}
+    "C:\\Users\\alber\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Personal\\Videos\\UPC-Projects\\Aplicaciones Web\\RELEASE\\Backend_MusicTime\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
+      "projectUniqueName": "D:\\carptea para clonar tf\\web\\BACKEND\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
       "projectName": "Backend-MusicTime",
-      "projectPath": "C:\\Users\\Personal\\Videos\\UPC-Projects\\Aplicaciones Web\\RELEASE\\Backend_MusicTime\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
-      "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Personal\\Videos\\UPC-Projects\\Aplicaciones Web\\RELEASE\\Backend_MusicTime\\Backend_MusicTime\\Backend-MusicTime\\obj\\",
+      "projectPath": "D:\\carptea para clonar tf\\web\\BACKEND\\Backend_MusicTime\\Backend-MusicTime\\Backend-MusicTime.csproj",
+      "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
+      "outputPath": "D:\\carptea para clonar tf\\web\\BACKEND\\Backend_MusicTime\\Backend-MusicTime\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -8667,7 +8667,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\alber\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

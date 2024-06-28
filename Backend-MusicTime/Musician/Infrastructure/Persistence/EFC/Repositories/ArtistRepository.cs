@@ -23,4 +23,16 @@ public class ArtistRepository(AppDbContext context) : BaseRepository<Artist>(con
     {
         throw new NotImplementedException();
     }
+
+    public async Task<Artist?> GetByIdAsync(int id)
+    {
+        return await context.Artists.FindAsync(id);
+    }
+
+    public async Task UpdateAsync(Artist artist)
+    {
+        context.Entry(artist).State = EntityState.Modified;
+        
+        await context.SaveChangesAsync();
+    }
 }

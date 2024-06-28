@@ -5,10 +5,10 @@ namespace Backend_MusicTime.Musician.Domain.Model.Aggregates;
 public partial class Artist
 {
     public int Id { get; }
-    public MusicianName Name { get; private set; }
-    public string Description { get; private set; }
-    public string Image { get; private set; }
-    public string GroupMusician { get; private set; }
+    public MusicianName Name { get; set; }
+    public string Description { get; set; }
+    public string Image { get; set; }
+    public string GroupMusician { get; set; }
     
     public string FullName => Name.FullName;
     
